@@ -1,19 +1,20 @@
+
 import React from 'react';
-import ReadMoreReadLess1 from "../red/ReadMoreReadLess"
+import ReadMoreReadLess from "./ReadMoreReadLess"
+// import "./red.css"
 
-
-const Green = () => {
+const Blue = () => {
 return (
   <div className="App" >
-      <ReadMoreReadLess1 limit={0}>
+      <ReadMoreReadLess limit={0}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Blanditiis non et doloribus veritatis praesentium neque nostrum deleniti accusantium quisquam ut libero similique, repellat tenetur, reiciendis, at amet voluptate tempora?
           Commodi?
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Blanditiis non et doloribus veritatis praesentium neque nostrum deleniti accusantium quisquam ut libero similique, repellat tenetur, reiciendis, at amet voluptate tempora?
           Commodi?
-      </ReadMoreReadLess1> 
+      </ReadMoreReadLess> 
 </div>
 );
 }
-export default Green
+export default Blue

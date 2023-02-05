@@ -1,8 +1,8 @@
 import React from "react";
 import "./home.css"
-import Red1 from "../colors/red/red1.jsx";
-import Blue from "../colors/blue/blue.jsx";
-import Green from "../colors/green/green.jsx";
+import Red1 from "../colors/Colors2/red1.jsx";
+import Blue from "../colors/Colors2/blue.jsx";
+import Green from "../colors/Colors2/green.jsx";
 
 
 const Home = () =>{
