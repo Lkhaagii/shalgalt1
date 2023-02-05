@@ -1,7 +1,7 @@
 // import ' ./App.css';
 import React from 'react';
 import ReadMoreReadLess from './ReadMoreReadLess';
-import "./red.css"g
+import "./red.css"
 
 const Red1 = () => {
 return (
