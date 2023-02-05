@@ -1,26 +1,19 @@
-import React from "react";
-import "./green.css"
-import Zurag from "../../colors/mod.jpg"
+import React from 'react';
+import ReadMoreReadLess1 from "../red/ReadMoreReadLess"
 
-const Green = () =>{
-    const text = [
-        {
-            key:1,
-            img:Zurag,
-            title:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio at ullam vitae omnis exercitationem adipisci sunt similique nostrum! Rem, laudantium."
-        }
-    ]
-    return(
-        <div>
-        {text.map(text)};
-        <div className="map">
-             <img src={text.img} alt="" />
-            <p>{text.title}</p>
-            <p>{text.title}</p>
-            <p>{text.title}</p>
-        </div>
-    </div>
-    )
+
+const Green = () => {
+return (
+  <div className="App" >
+      <ReadMoreReadLess1 limit={0}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Blanditiis non et doloribus veritatis praesentium neque nostrum deleniti accusantium quisquam ut libero similique, repellat tenetur, reiciendis, at amet voluptate tempora?
+          Commodi?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Blanditiis non et doloribus veritatis praesentium neque nostrum deleniti accusantium quisquam ut libero similique, repellat tenetur, reiciendis, at amet voluptate tempora?
+          Commodi?
+      </ReadMoreReadLess1> 
+</div>
+);
 }
-
 export default Green

@@ -1,3 +1,7 @@
 body{
-    width: 1300px;
+    padding: 2rem;
+    background-color: #eee;
+}
+.read-more-read-less{
+background-color: aliceblue;
 }
